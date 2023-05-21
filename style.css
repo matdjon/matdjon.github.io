@@ -1,0 +1,99 @@
+
+@media (min-width: 768px){
+  body, html {
+    font-size: 1.3rem;
+  }
+}
+
+.navbar {
+  /* color: rgb(10, 38, 116); */
+  margin: 10% 20%;
+}
+
+.header-text {
+  background: linear-gradient(to right,rgb(223 95 255),rgb(78 124 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  text-align: center;
+  font-size: 80px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-family: Copperplate, Arial, sans-serif;
+}
+
+.description {
+  color: rgb(73,70,116);
+  margin-top: 50px;
+}
+
+.header {
+  text-align: center;
+  margin-top: 200px
+}
+
+.footer {
+  color: rgb(162, 162, 162);
+  bottom: 0%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.footer h3 {
+  font-size: small;
+}
+
+.footer-link {
+  padding-left: 0;
+}
+
+.footer-link img {
+  width: 32px;
+}
+
+.footer-link li {
+  list-style: none;
+  margin: 1%;
+  display: inline;
+}
+
+.home {
+  text-align: left;
+  margin: 10% 0 10% 10%;
+  cursor: pointer;
+}
+
+.container {
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.long-description {
+
+}
+
+.experience-section {
+  margin-top: 5%;
+}
+
+.col-img {
+  width: 10%;
+}
+
+.col-details {
+  width: 90%;
+  padding-left: 5px;
+}
+
+.company-img {
+  margin: 0 10px 10px 0;
+  max-width: 88px;
+}
+
+.location {
+  font-style: italic;
+}
+
+.years-exp {
+  color: grey;
+}
