@@ -92,8 +92,10 @@
 
 .location {
   font-style: italic;
+  margin-left: 8px;
 }
 
 .years-exp {
   color: grey;
+  margin-bottom: 10px;
 }

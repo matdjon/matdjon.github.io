@@ -7,5 +7,5 @@ window.onload = function(){
 
 function homeLink(){
   home = document.getElementById('homeLink')
-  home.onclick=function(){window.location.href="./main.html"}
+  home.onclick=function(){window.location.href="./index.html"}
 }
