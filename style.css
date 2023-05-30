@@ -161,3 +161,22 @@
     margin-left: 40px;
   }
 }
+
+.me {
+  display: block;
+  max-width: 200px;
+  border: 1px solid black;
+  border-radius: 200px;
+  text-align: center;
+  margin: 20px auto 20px auto;
+}
+
+@media (min-width: 425px){
+  .me {
+    max-width: 200px;
+    border: 1px solid black;
+    border-radius: 200px;
+    float: left;
+    margin: 0 40px 10px 0;
+  }
+}
