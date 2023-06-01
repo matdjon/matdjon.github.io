@@ -97,6 +97,7 @@
 
 .experience-section {
   margin-top: 5%;
+  margin-bottom: 10%;
 }
 
 .col-img {
@@ -121,6 +122,10 @@
 .years-exp {
   color: grey;
   margin-bottom: 10px;
+}
+
+.project-section {
+  margin-bottom: 10%;
 }
 
 .project-title {
@@ -179,4 +184,15 @@
     float: left;
     margin: 0 40px 10px 0;
   }
+}
+
+.download-section {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.download {
+  max-height: 60px;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
