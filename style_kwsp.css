@@ -1,0 +1,120 @@
+html {
+    background-color: #cce1f5;
+}
+
+.main-body {
+    text-align: center;
+    padding: 10em 5em 2em 5em;
+    background-color: #cce1f5;
+}
+@media (max-width: 576px) {
+    .main-body {
+        text-align: center;
+        padding: 4em 0em 1em 0em;
+        background-color: #cce1f5;
+    }
+}
+
+.epf-logo {
+    width: 8em;
+    margin-bottom: 0.5em;
+}
+
+#title {
+    color: #2f368f;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.dark-button {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+}
+
+.lang {
+    position: absolute;
+    top: 1em;
+}
+.lang-en {
+    right: 1em;
+}
+.lang-bm {
+    right: 4em;
+}
+
+.input-div {
+    margin: 1em;
+}
+
+#acc2-error {
+    display: none;
+    position: absolute;
+    color: red;
+}
+
+#btn-calc {
+    margin-top: 2em;
+}
+
+.result {
+    background-color: white;
+    padding: 2em 4em;
+    border: 2px solid #2f368f;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 4em auto;
+}
+@media (max-width: 576px) {
+    .result {
+        background-color: white;
+        padding: 1em 3em;
+        border: 2px solid #2f368f;
+        border-radius: 20px;
+        width: fit-content;
+        margin: 1em auto;
+    }
+}
+
+.result-acc3 {
+    padding: 0.5em;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+footer {
+    margin: 0 auto;
+    background-color: #cce1f5;
+    text-align: center;
+}
+@media (max-width: 576px) {
+    footer {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        background-color: #cce1f5;
+    }
+}
+
+.footer-link {
+    padding-left: 0;
+}
+
+.footer-link img {
+    width: 32px;
+}
+
+.footer-link li {
+    list-style: none;
+    margin: 1%;
+    display: inline;
+}
+
+/* Override bootstrap styles */
+#acc1.form-control, #acc2.form-control {
+    display: initial;
+    width: initial;
+}
