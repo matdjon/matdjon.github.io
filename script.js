@@ -24,21 +24,24 @@ const KwspAccount3Calculator = class {
             this.newAcc2Bal = (15/30) * this.acc2Bal;
             this.newAcc3Bal = (10/30) * this.acc2Bal;
 
-            if(this.acc1Bal === 0)
+            if (this.acc1Bal === 0)
                 this.newAcc1Bal = `${round(this.newAcc1Bal, 2).toFixed(2)} + Initial account balance`;
+            else
+                this.newAcc1Bal = (round(this.newAcc1Bal, 2)).toFixed(2);
 
         } else if (this.acc2Bal > 1000) {
             this.newAcc1Bal = this.acc1Bal;
+            this.newAcc1Bal = (round(this.newAcc1Bal, 2)).toFixed(2);
             this.newAcc2Bal = this.acc2Bal - 1000;
             this.newAcc3Bal = 1000;
         } else {
             this.newAcc1Bal = this.acc1Bal;
+            this.newAcc1Bal = (round(this.newAcc1Bal, 2)).toFixed(2);
             this.newAcc2Bal = 0;
             this.newAcc3Bal = this.acc2Bal;
         }
 
-        if(this.acc1Bal === this.newAcc1Bal)
-            this.newAcc1Bal = (round(this.newAcc1Bal, 2)).toFixed(2);
+        if (this.acc1Bal === this.newAcc1Bal)
 
         this.newAcc2Bal = (round(this.newAcc2Bal, 2)).toFixed(2);
         this.newAcc3Bal = (round(this.newAcc3Bal, 2)).toFixed(2);
@@ -52,7 +55,7 @@ const KwspAccount3Calculator = class {
         this.acc2ErrorMessage = document.getElementById("acc2-error");
         this.acc2ErrorMessage.style.display = "none";
         this.acc2Bal = parseFloat(document.getElementById("acc2").value);
-        if(!this.acc2Bal)
+        if (!this.acc2Bal)
         {
             const x = document.querySelector('#acc2').getBoundingClientRect().left;
             this.acc2ErrorMessage.style.display = "block";
